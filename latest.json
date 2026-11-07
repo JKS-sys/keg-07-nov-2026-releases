@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "notes": "## Keg 1.0.0 — 07 Nov 2026\n\n- The Worker's hourly job now runs from the ipconfig accounts API's scheduled jobs, so it needs none of Cloudflare's 5 cron triggers.\n\n- CrossOver: a per-bottle Wine engine — the Game Porting Toolkit build, a community build of CodeWeavers' published CrossOver Wine sources (`winecx`), or the Wine inside an installed CrossOver.app under the user's own licence; the CrossOver sources mirrored in vendor/winecx.\n- First release of Keg: bottles (make, duplicate, delete, per-bottle Windows version, renderer, HUD, MetalFX, DLSS-via-MetalFX, ray tracing, Retina, MSync/ESync, AVX, debug log, environment), the Game Porting Toolkit engine with Apple's D3DMetal, DXMT and DXVK renderers, winetricks, Rosetta 2 and Apple's own GPTK image import, eight stores installed in a click (Steam, Epic Games Store, GOG Galaxy, Battle.net, EA app, Ubisoft Connect, Rockstar Games Launcher, itch.io), a library that finds Steam, Epic and GOG games with an honest verdict, \"Will it run?\" with the kernel anti-cheat list, one-click fixes and \"Find out why\", logs for every program, a controller console (Pro), a game as its own Mac app in the Games category (Pro), Windows VM apps through FreeRDP's RemoteApp (Pro), accounts, activation codes and Razorpay (₹110 / month, ₹1,100 / year), the Owner Panel, crash reports, a self-updater, sounds with scenes, fourteen library layouts, light and dark gold themes.\n\n### Install\n\nKeg is a Mac app (Apple silicon — M1 and later). One download: `Keg_<version>_aarch64.dmg`.\n\n- **With Pour:** `curl -fsSL https://ipconfig.co.network/pour/install | sh` then `pour install --cask keg`\n- **By hand:** open the DMG and drag Keg into Applications. First launch: `xattr -cr /Applications/Keg.app` (Keg is self-signed, not notarized).\n- Per-app volume and the equaliser need macOS 14.4 or later.\n- Earlier Windows, Linux, ChromeOS, FreeBSD and Intel Mac builds stay on the releases page but are no longer updated.",
+  "pub_date": "2026-11-07T09:40:23Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDZEZnFiWEQwWGZFUGVHU3czaUVxdXJrTlhTd3hrVm5rc1gzc1YxSXJFZkdIM2xKdHBNV1k2NEhTbGNlRnAzZjNycUQxK2gzZ0NGdlA3RE93ZUY2eHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQyMzE0CWZpbGU6S2VnLmFwcC50YXIuZ3oKNnZ0NUxnNHBVSnBBQzZmYTJaVURBZVFBaFIrZm03U3ZHbkg1bHZwaVNLWFpDVEtyUE1KL05NTjlSdGlLUWp0b3gyV1BXa1Q4YjhQaFZNUmtGT0FZQ1E9PQo=",
+      "url": "https://github.com/JKS-sys/keg-07-nov-2026-releases/releases/download/v1.0.0/Keg_aarch64.app.tar.gz"
+    }
+  },
+  "downloads": {
+    "mac_arm": "Keg_1.0.0_aarch64.dmg"
+  }
+}
