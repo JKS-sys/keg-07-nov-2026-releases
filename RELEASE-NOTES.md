@@ -2,6 +2,10 @@
 
 Newest first. Downloads: https://github.com/JKS-sys/keg-07-nov-2026-releases/releases/latest · https://ipconfig.co.network/keg
 
+## Keg 1.0.2 — 16 Nov 2026
+
+- Programs that died on start with "Assertion failed … alloc_pages_vprot" (a limit of the Game Porting Toolkit's Wine 7.7): Find out why now names it and switches the bottle to the CrossOver-sources engine in one click, downloading the engine first if needed.
+
 ## Keg 1.0.1 — 16 Nov 2026
 
 - Works with the accounts API's new daily database budget: when writes are paused until 00:00 UTC, the release still builds and publishes the app (the server is redeployed on the next release), and Keg's server answers in a plain sentence instead of an error; crash reports are skipped for the day.
