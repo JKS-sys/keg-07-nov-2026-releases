@@ -11,7 +11,7 @@
 <p align="center"><b>An AI sound mixer — a Mac app (Apple silicon)</b></p>
 
 <p align="center">
-  Version <b>1.0.1</b> · released 16 Nov 2026 ·
+  Version <b>1.0.2</b> · released 16 Nov 2026 ·
   <a href="https://github.com/JKS-sys/keg-07-nov-2026-releases/releases/latest">Download</a> ·
   <a href="https://ipconfig.co.network/keg">Website</a> ·
   <a href="RELEASE-NOTES.md">Release notes</a>
@@ -251,12 +251,12 @@ curl -fsSL https://ipconfig.co.network/pour/install | sh
 pour install --cask keg
 ```
 
-Or download it directly (version 1.0.1; also on the
+Or download it directly (version 1.0.2; also on the
 [latest release page](https://github.com/JKS-sys/keg-07-nov-2026-releases/releases/latest)):
 
 | System | CPU | Download |
 |---|---|---|
-| macOS 10.15+ (per-app audio: 14.4+) | Apple silicon | [Keg_1.0.1_aarch64.dmg](https://github.com/JKS-sys/keg-07-nov-2026-releases/releases/download/v1.0.1/Keg_1.0.1_aarch64.dmg) |
+| macOS 10.15+ (per-app audio: 14.4+) | Apple silicon | [Keg_1.0.2_aarch64.dmg](https://github.com/JKS-sys/keg-07-nov-2026-releases/releases/download/v1.0.2/Keg_1.0.2_aarch64.dmg) |
 
 Pour copies **Keg.app** to `/Applications`. If you install from the DMG by hand instead, run this once before the
 first launch (Keg is self-signed, not notarized):
