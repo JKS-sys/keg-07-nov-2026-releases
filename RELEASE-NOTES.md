@@ -2,6 +2,19 @@
 
 Newest first. Downloads: https://github.com/JKS-sys/keg-07-nov-2026-releases/releases/latest · https://ipconfig.co.network/keg
 
+## Keg 1.0.1 — 16 Nov 2026
+
+- Works with the accounts API's new daily database budget: when writes are paused until 00:00 UTC, the release still builds and publishes the app (the server is redeployed on the next release), and Keg's server answers in a plain sentence instead of an error; crash reports are skipped for the day.
+- Fixed: a Windows program opened from Finder (double-click, Open With, the Dock icon) or dropped on Keg's window did nothing. Keg now asks which bottle to run it in and starts it; .bat files run through cmd.
+- No more permission questions: each bottle keeps its own Desktop, Documents and Downloads (Bottles → Private folders, on by default), and exports go to Keg's own folder instead of Documents.
+- Logs: a health ring, counts that filter when clicked, a strip chart of where errors happened, a find box, and lines coloured part by part — with sounds for opening, filtering and searching.
+- Owner Panel: an Analysis page with a world map of installs, the busiest countries, installs per day, and bars by system, version and plan.
+- Small windows: the Owner Panel's tabs and action bar scroll sideways instead of covering the table; every page is checked down to 380 × 300.
+- Website: the product page fetches its data and layout side by side, and the buy page connects to the payment form sooner.
+- Eleven new sounds, each with its own drawn scene.
+- FEATURES.md lists what Keg Free and Keg Pro include, in a format the website reads; a release check keeps it in step with the app.
+- "A game as a Mac app" is now a Pro feature in the app, as the README already said; Pro features are also refused in the engine, not only hidden.
+
 ## Keg 1.0.0 — 07 Nov 2026
 
 - The Worker's hourly job now runs from the ipconfig accounts API's scheduled jobs, so it needs none of Cloudflare's 5 cron triggers.
